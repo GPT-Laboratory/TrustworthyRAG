@@ -1,0 +1,56 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning, fit, backgrounds, calc}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage[hidelinks]{hyperref}
+\usepackage{url}
+\usepackage{orcidlink}
+\usepackage{float}
+
+\begin{document}
+
+\title{Trustworthy RAG: An Evaluation Agent for Detecting Misinformation and Knowledge Poisoning in Generative AI Systems}
+
+\author{
+\IEEEauthorblockN{
+Balkrishna Giri,
+Md Toufique Hasan\,\orcidlink{0009-0005-8907-9898},
+Jussi Rasku\,\orcidlink{0000-0002-4401-8013},
+Muhammad Waseem\,\orcidlink{0000-0001-7488-2577},
+and Pekka Abrahamsson\,\orcidlink{0000-0002-4360-2226}
+}
+\IEEEauthorblockA{
+Faculty of Information Technology and Communication Sciences, Tampere University\\
+Tampere, Finland\\
+\resizebox{0.95\textwidth}{!}{{\ttfamily e-mail: \{balkrishna.giri, mdtoufique.hasan, jussi.rasku, muhammad.waseem, pekka.abrahamsson\}@tuni.fi}}
+}
+}
+
+\maketitle
+
+\begin{abstract}
+Retrieval-Augmented Generation (RAG) improves large language model (LLM) reliability by grounding responses in external knowledge. However, RAG systems usually trust the retrieved content. This creates a \emph{Security-Reliability Gap}: high semantic relevance does not guarantee factual truth. Adversaries can exploit this gap through \emph{knowledge poisoning}, where malicious documents are inserted into the corpus to cause targeted misinformation. We propose an \emph{Evaluation Agent} that acts as middleware in the RAG pipeline. It combines Natural Language Inference (NLI)-based factual verification, a five-signal poison detector with relevance-weighted aggregation, and a \emph{Trust Index} $T = 0.4\,F + 0.35\,C + 0.25\,(1-P)$ with a non-linear dampener for high-contamination contexts. On TruthfulQA with Llama~3.3~70B, the agent reaches 91\% accuracy and 100\% precision, improving by 7 percentage points over a naive always-trust baseline. It detects instruction injection with 100\% recall, while entity-swap and subtle in-place edits remain difficult to detect because they provide few surface signals. Across three LLMs, the results show that the Trust Index depends on the generator. Generation style matters more than model size: a 7B model reaches 87\% accuracy, while a 35B model reaches 69\% because its hedged outputs cause false positives. The Trust Index remains discriminative for all models, with ROC-AUC from 0.73 to 0.81, and per-LLM threshold calibration restores baseline-competitive accuracy. Results are stable across repeated runs ($90.6{\pm}0.5\%$ over five runs), and detection does not change with retrieval depth ($K{=}3 \equiv K{=}5$). In a software-engineering use case, a secure-coding assistant over OWASP/CWE guidance, the agent blocks injected unsafe advice with F1 92\% but misses subtle weakening. We release the proposed approach, attack generator, and experimental artifacts\footnote{\url{https://github.com/your-username/your-repository}}.
+\end{abstract}
+
+\begin{IEEEkeywords}
+retrieval-augmented generation, knowledge poisoning, trustworthy AI, natural language inference, misinformation detection, LLM security
+\end{IEEEkeywords}
+
+\input{sections/01_introduction.tex}
+\input{sections/02_background.tex}
+\input{sections/03_approach.tex}
+\input{sections/04_experimental_design.tex}
+\input{sections/05_results.tex}
+\input{sections/06_discussion.tex}
+\input{sections/07_conclusion.tex}
+\input{sections/08_references.tex}
+
+\end{document}
