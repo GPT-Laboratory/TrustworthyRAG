@@ -318,7 +318,7 @@ The compiled PDF is intentionally not included in this release; build it from th
 ICSEA 2026 conference paper authors — Tampere University (TUNI).
 
 **Balkrishna Giri**, MSc Researcher, Faculty of Information Technology and Communication Sciences, Tampere University  
-Email: [balkrishna.giri@tuni.fi](mailto:balkrishna.giri@tuni.fi)
+Email: [balkrishna.giri@tuni.fi](mailto:balkrishna.giri@tuni.fi), [balkrishna.giri07@gmail.com](mailto:balkrishna.giri07@gmail.com)
 
 **Md Toufique Hasan**, Doctoral Researcher, GPT Lab, Faculty of Information Technology and Communication Sciences, Tampere University  
 Email: [mdtoufique.hasan@tuni.fi](mailto:mdtoufique.hasan@tuni.fi)
