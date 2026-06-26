@@ -326,6 +326,6 @@ Email: [mdtoufique.hasan@tuni.fi](mailto:mdtoufique.hasan@tuni.fi)
 **Co-authors** — Faculty of Information Technology and Communication Sciences, Tampere University:  
 - Dr. Jussi Rasku — [jussi.rasku@tuni.fi](mailto:jussi.rasku@tuni.fi)  
 - Dr. Muhammad Waseem — [muhammad.waseem@tuni.fi](mailto:muhammad.waseem@tuni.fi)  
-- Professor Pekka Abrahamsson — [pekka.abrahamsson@tuni.fi](mailto:pekka.abrahamsson@tuni.fi)
+- Professor Dr. Pekka Abrahamsson — [pekka.abrahamsson@tuni.fi](mailto:pekka.abrahamsson@tuni.fi)
 
 Developed at GPT Lab, Tampere University.
