@@ -317,16 +317,15 @@ The compiled PDF is intentionally not included in this release; build it from th
 
 ICSEA 2026 conference paper authors — Tampere University (TUNI).
 
-**Balkrishna Giri** — MSc Researcher, Tampere University
+**Balkrishna Giri** — MSc Researcher, Faculty of Information Technology and Communication Sciences, Tampere University
 [balkrishna.giri@tuni.fi](mailto:balkrishna.giri@tuni.fi) · [balkrishna.giri07@gmail.com](mailto:balkrishna.giri07@gmail.com)
 
-**Md Toufique Hasan** — Doctoral Researcher, GPT Lab, Tampere University
+**Md Toufique Hasan** — Doctoral Researcher, GPT Lab, Faculty of Information Technology and Communication Sciences, Tampere University
 [mdtoufique.hasan@tuni.fi](mailto:mdtoufique.hasan@tuni.fi)
 
 **Co-authors** — Faculty of Information Technology and Communication Sciences, Tampere University:
-
-- Jussi Rasku — [jussi.rasku@tuni.fi](mailto:jussi.rasku@tuni.fi)
-- Muhammad Waseem — [muhammad.waseem@tuni.fi](mailto:muhammad.waseem@tuni.fi)
-- Pekka Abrahamsson — [pekka.abrahamsson@tuni.fi](mailto:pekka.abrahamsson@tuni.fi)
+- Dr. Jussi Rasku — [jussi.rasku@tuni.fi](mailto:jussi.rasku@tuni.fi)
+- Dr. Muhammad Waseem — [muhammad.waseem@tuni.fi](mailto:muhammad.waseem@tuni.fi)
+- Professor Pekka Abrahamsson — [pekka.abrahamsson@tuni.fi](mailto:pekka.abrahamsson@tuni.fi)
 
 Developed at GPT Lab, Tampere University.
